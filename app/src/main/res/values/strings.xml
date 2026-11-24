@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Antigravity Studio</string>
+
+    <!-- Navigation Destinations -->
+    <string name="nav_agent">Agent</string>
+    <string name="nav_workspace">Workspace</string>
+    <string name="nav_terminal">Terminal</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Agent Screen -->
+    <string name="agent_title">Agent</string>
+    <string name="agent_no_key">No API Key</string>
+    <string name="agent_switch_key_desc">Switch API key or model settings</string>
+    <string name="agent_clear_chat_desc">Clear conversation</string>
+    <string name="agent_prompt_placeholder">Ask Antigravity to inspect, edit, or run code...</string>
+    <string name="agent_send_desc">Send prompt</string>
+    <string name="agent_copy_code">Copy</string>
+    <string name="agent_copied">Copied</string>
+    <string name="agent_approve_run">Approve &amp; Run</string>
+    <string name="agent_reject">Reject</string>
+    <string name="agent_approved_badge">Executed</string>
+    <string name="agent_rejected_badge">Rejected</string>
+    <string name="agent_pending_badge">Approval Required</string>
+    <string name="agent_chip_inspect">Inspect Project</string>
+    <string name="agent_chip_git">Git Status</string>
+    <string name="agent_chip_python">Run Python</string>
+    <string name="agent_welcome_title">Antigravity Coding Agent</string>
+    <string name="agent_welcome_subtitle">Connected to your local workspace and Termux shell. Add a Gemini API key in Settings to begin autonomous coding sessions.</string>
+    <string name="agent_open_settings">Configure API Key</string>
+    <string name="agent_thinking">Agent reasoning...</string>
+
+    <!-- Workspace Screen -->
+    <string name="workspace_title">Workspace</string>
+    <string name="workspace_pick_folder">Pick Folder</string>
+    <string name="workspace_use_internal">Internal Sandbox</string>
+    <string name="workspace_new_file">New File</string>
+    <string name="workspace_refresh_desc">Refresh files</string>
+    <string name="workspace_save_file">Save File</string>
+    <string name="workspace_run_termux">Run in Termux</string>
+    <string name="workspace_back_files_desc">Back to file list</string>
+    <string name="workspace_empty">No files found in this workspace. Tap + to create one.</string>
+    <string name="workspace_create_title">Create New File</string>
+    <string name="workspace_filename_hint">example.py</string>
+    <string name="workspace_create">Create</string>
+    <string name="workspace_cancel">Cancel</string>
+    <string name="workspace_unsaved">Unsaved changes</string>
+    <string name="workspace_saved">Saved</string>
+
+    <!-- Terminal Screen -->
+    <string name="terminal_title">Termux Bridge</string>
+    <string name="terminal_open_termux">Open Termux</string>
+    <string name="terminal_status_installed">Termux Detected</string>
+    <string name="terminal_status_missing">Termux Not Installed</string>
+    <string name="terminal_setup_guide">Setup Guide</string>
+    <string name="terminal_input_placeholder">$ enter bash, git, or python command...</string>
+    <string name="terminal_run_desc">Execute command in Termux</string>
+    <string name="terminal_clear_logs_desc">Clear execution logs</string>
+    <string name="terminal_empty_logs">No commands dispatched yet. Run a quick command or enter a shell instruction below.</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_api_section">Multi-Key Gemini API Manager</string>
+    <string name="settings_add_key">Add Key</string>
+    <string name="settings_test_key">Test Active API Key</string>
+    <string name="settings_testing_key">Testing connection...</string>
+    <string name="settings_model_section">Model &amp; Agent Configuration</string>
+    <string name="settings_model_label">Active Gemini Model</string>
+    <string name="settings_system_instruction_label">System Instruction</string>
+    <string name="settings_workdir_label">Default Termux Working Directory</string>
+    <string name="settings_save_config">Save Configuration</string>
+    <string name="settings_key_label_hint">Key Label (e.g. Personal Key 1)</string>
+    <string name="settings_key_value_hint">Gemini API Key (AIza...)</string>
+    <string name="settings_save">Save</string>
+    <string name="settings_delete_desc">Delete API key</string>
+    <string name="settings_edit_desc">Edit API key</string>
+    <string name="settings_toggle_visibility_desc">Toggle API key visibility</string>
+    <string name="settings_no_keys">No API keys stored yet. Add a Gemini API key to activate the coding agent.</string>
+</resources>

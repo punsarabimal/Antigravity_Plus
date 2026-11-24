@@ -1,0 +1,6 @@
+{
+  "name": "Antigravity Studio",
+  "description": "Lightweight mobile-first Agentic AI Coding IDE connecting Google Gemini agents with local project workspaces and Termux.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
